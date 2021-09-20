@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char* argv[])
 {
 	int n;
 	cin >> n;
@@ -10,5 +10,5 @@ int main()
 	int k = ((n % 100) - (n % 10)) / 10;
 	int c = n % 10;
 	cout << a + k + c;
-	return 0;
+	return EXIT_SUCCESS;
 }

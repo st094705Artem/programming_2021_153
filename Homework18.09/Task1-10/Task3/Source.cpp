@@ -2,10 +2,10 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char* argv[])
 {
 	int n, k;
 	cin >> n >> k;
 	cout << k % n;
-	return 0;
+	return EXIT_SUCCESS;
 }
